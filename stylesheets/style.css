@@ -1,0 +1,352 @@
+@font-face {
+    font-family: Jura-Light; 
+    src: url(../fonts/Jura-Light.ttf); 
+   }
+   @font-face {
+    font-family: Jura-SemiBold;
+    src: url(../fonts/Jura-SemiBold.ttf); 
+   }
+
+  @font-face {
+    font-family: CormorantInfant-Regular; 
+    src: url(../fonts/CormorantInfant-Regular.ttf);
+   }
+   @font-face {
+    font-family: CormorantInfant-Italic; 
+    src: url(../fonts/CormorantInfant-Italic.ttf);
+   }
+     @font-face {
+    font-family: CormorantInfant-Bold;
+    src: url(../fonts/CormorantInfant-Bold.ttf); 
+   }
+
+
+body
+{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	color: white;
+	margin: 0px;
+	//font-family: Jura-Light;
+	
+	
+}
+ul
+{
+	 margin: 0px;
+}
+li
+{
+	 list-style-type: none;
+	
+}
+a
+{
+	text-decoration: none;
+
+}
+i
+{
+	margin:0px;
+}
+
+.header_pic
+{
+	width: 100%;
+	height: 100vh;
+	
+	background-size: 100% 100vh;
+       
+}
+.hp_main
+{
+	background-image: url(../images/img_b/blog_pic.jpg);
+}
+.hp_j
+{
+	background-image: url(../images/img_b/about_j_pic.jpg);
+
+}
+.hp_contucts
+{
+	background-image: url(../images/img_b/contucts_pic.jpg);
+}
+.menu
+{
+
+	width: 100%;
+	height: 3rem;
+	background-color: rgba(0, 0, 0,0.5);
+	font-family: Jura-Light;
+	font-size: 18px;
+
+
+}
+.menu_punkt
+{
+ display: inline-block;
+ 
+ margin-left:5%;
+ margin-top: 0.5%;
+
+
+}
+.menu_punkt_perehod
+{
+	color: white;
+		
+}
+.menu_punkt_perehod:hover
+{
+	
+	color:  #8A2BE2;
+}
+.logo
+{
+	border: 1px solid white;
+	font-size: 24px;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+}
+.header_text
+{
+	text-align: center;
+	text-shadow: 2px 2px 2.5px black;
+	//margin-left:20%;
+}
+.header_zag{
+	//text-align: center;
+
+	margin-top:15%;	
+	font-family: CormorantInfant-Regular;
+	font-size: 72px;
+
+	
+
+}
+.header_quote
+{
+	font-size: 18px;
+	font-family: CormorantInfant-Italic;
+	padding-left: 2%;
+
+}
+.art_quote
+{
+	font-family: CormorantInfant-Italic;
+	font-size: 1.3rem;
+	margin: 2%;
+
+}
+.align
+{
+	text-align: right;
+}
+.avt_st
+{
+	margin-left: 50%;
+}
+.aside
+{
+	
+	margin-top: 0.5%;
+	margin-left: 0.5%;
+}
+.aside_article
+{
+	margin-bottom: 1%;
+}
+.image
+{
+	width: 35%;
+	height:50vh;
+    float: left;
+	background-size: auto 50vh ;
+	margin:1%;
+
+	
+}
+.image_c
+{
+	width: 16%;
+	height:50vh;
+    float: left;
+	background-size: auto 50vh ;
+	margin:1%;
+
+	
+}
+.pic1
+{
+background-image: url(../images/img_s/st_annot.jpg);
+
+
+}
+.pic2
+{
+	background-image: url(../images/img_s/st_habbits.jpg);
+}
+.pic3
+{
+	background-image: url(../images/img_s/st_succes.jpg);
+}
+.con1
+{
+background-image: url(../images/img_s/person1.jpg);
+}
+.con2
+{
+	background-image: url(../images/img_s/person2.jpg);
+
+}
+.con3
+{
+background-image: url(../images/img_s/person3.jpg);
+}
+.ab_j1
+{
+background-image: url(../images/img_s/ab_j1.jpg);
+}
+.ab_j2
+{
+	float: right;
+
+background-image: url(../images/img_s/ab_j2.jpg);
+}
+.ab_j3
+{
+background-image: url(../images/img_s/ab_j3.jpg);
+}
+.art_1
+{
+	background-image: url(../images/img_b/article1.jpg);
+}
+.art_2
+{
+	background-image: url(../images/img_b/article2.jpg);
+}
+.art_3
+{
+	background-image: url(../images/img_b/article3.jpg);
+}
+.im_b
+{
+	background-image: url(../images/img_article/im_b.jpg);
+}
+.im_hab1
+{
+	width: 39%;
+	height: 50vh;
+	background-image: url(../images/img_article/hab_1.png);
+float: left;
+margin:1%;
+}
+.im_hab2
+{
+	width: 29%;
+	height: 52vh;
+	background-image: url(../images/img_article/hab_2.png);
+	float: right;
+	margin:1%;
+}
+.st_secr1
+{
+	
+	background-image: url(../images/img_article/im_secr1.jpg);
+	margin:1%;
+}
+.st_secr2
+{
+	
+	background-image: url(../images/img_article/im_secr2.jpg);
+	float: right;
+	margin:1%;
+}
+
+.zag
+{
+	font-family: Jura-SemiBold;
+	font-size: 36px;
+
+}
+.z_q
+{
+	margin-top: 1%;
+	font-size: 25px;
+}
+
+
+.text
+{
+	font-family: Jura-Light;
+	height:50vh;
+	overflow: hidden;
+	
+
+}
+.article_text
+{
+	margin-top: 1%;
+	margin-left: 1%;
+	font-family: Jura-Light;
+	margin-bottom: 10%;
+}
+
+
+.footer
+{
+	height: 50px;
+	margin-top: -50px;
+	width: 100%;
+	background-color: white;
+
+}
+.empty
+{
+	height: 50px;
+	
+}
+
+.footer_socials
+{
+	float: right;
+    margin-right: 1%;
+
+}
+.fa
+{
+	font-size: 25px;
+	margin: 5px;
+	color: black;
+}
+.fa:hover
+{
+	color: #280457;
+
+}
+.pereh
+{
+	font-family: Jura-SemiBold;
+	padding-left: 3px;
+	color:  #8A2BE2;
+
+}
+.pereh:hover
+{
+	color: white;
+	border-bottom: 1px solid white;
+	
+}
+.text_con
+{
+	margin:2%;
+}
+.fa-envelope
+{
+	color: white;
+}
+.fa-mobile
+{
+	color: white;
+}
